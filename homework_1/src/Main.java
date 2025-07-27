@@ -13,8 +13,8 @@ public class Main {
 
         Whale whale = new Whale();
         whale.move();
-        whale.describeTheSpine();
         whale.feedWithMilk();
+        whale.describeTheSpine();
         whale.toSwim();
 
         Fish fish = new Fish();

@@ -12,7 +12,7 @@ public class Bear extends Mammal implements hasASpine, HasWool {
 
     @Override
     public void feedWithMilk() {
-        System.out.println("Медведь кормит молоком.");
+        System.out.println("Медведь кормит детенышей молоком.");
     }
 
     @Override

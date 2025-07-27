@@ -8,11 +8,12 @@ public class Main {
         Cat cat = new Cat();
         cat.move();
         cat.feedWithMilk();
+        cat.describeTheSpine();
         cat.describeWool();
 
         Whale whale = new Whale();
         whale.move();
-        whale.haveASpine();
+        whale.describeTheSpine();
         whale.feedWithMilk();
         whale.toSwim();
 
@@ -23,6 +24,7 @@ public class Main {
         Bear bear = new Bear();
         bear.move();
         bear.feedWithMilk();
+        bear.describeTheSpine();
         bear.describeWool();
     }
 }

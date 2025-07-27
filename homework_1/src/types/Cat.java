@@ -16,6 +16,6 @@ public class Cat extends Mammal implements HasWool {
 
     @Override
     public void describeWool() {
-        System.out.println("Кошка имеет шерсть.");
+        System.out.println("Кошка имеет гладкую шерсть.");
     }
 }

@@ -2,8 +2,9 @@ package types;
 
 import animals.Animal;
 import interfaces.LivesInWater;
+import interfaces.hasASpine;
 
-public class Fish  extends Animal implements LivesInWater{
+public class Fish extends Animal implements LivesInWater{
 
     @Override
     public void move() {
@@ -13,5 +14,6 @@ public class Fish  extends Animal implements LivesInWater{
     @Override
     public void toSwim() {
         System.out.println("Рыба обитает в воде.");
+        System.out.println();
     }
 }

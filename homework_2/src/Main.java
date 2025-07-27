@@ -33,6 +33,5 @@ public class Main {
         Taxi taxi = new Taxi();
         taxi.drive();
         taxi.describeTheWheels();
-        taxi.describeTheCargo();
     }
 }

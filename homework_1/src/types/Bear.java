@@ -16,6 +16,6 @@ public class Bear extends Mammal implements HasWool {
 
     @Override
     public void describeWool() {
-        System.out.println("Медведь имеет шерсть.");
+        System.out.println("Медведь имеет густую шерсть.");
     }
 }

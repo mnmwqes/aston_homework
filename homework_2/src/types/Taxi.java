@@ -4,7 +4,7 @@ import interfaces.CarriesCargo;
 import interfaces.ItHasWheels;
 import transport.TransportVehicle;
 
-public class Taxi extends TransportVehicle implements ItHasWheels, CarriesCargo {
+public class Taxi extends TransportVehicle implements ItHasWheels {
 
     @Override
     public void drive() {

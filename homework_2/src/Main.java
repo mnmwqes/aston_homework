@@ -18,12 +18,12 @@ public class Main {
                 .filter(book -> book.getYear() > 2000)
                 .limit(3)
                 .map(book -> {
-                    System.out.println("Год: " + book.getYear());
+                    System.out.println("Optional. Год выпуска: " + book.getYear() + ":");
                     return book;
                 })
                 .findFirst();
 
         System.out.println(result.map(b -> "Первая подходящая книга: " + b)
-                .orElse("Книга не найдена"));
+                .orElse("Книга не найдена."));
     }
 }

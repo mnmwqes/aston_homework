@@ -18,7 +18,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return title + " (" + year + ", " + pages + " стр.)";
+        return title + ", " + year + " г. — " + pages + " стр.";
     }
 
     @Override

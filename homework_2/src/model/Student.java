@@ -17,6 +17,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" + name + ", книги: " + books + '}';
+        return "\nСтудент " + name + ", книги:" + books;
     }
 }

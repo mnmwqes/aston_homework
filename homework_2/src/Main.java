@@ -1,5 +1,5 @@
-import model.Student;
-import model.Book;
+import studentsAndBooks.Student;
+import studentsAndBooks.Book;
 import utils.DataGenerator;
 
 import java.util.Comparator;

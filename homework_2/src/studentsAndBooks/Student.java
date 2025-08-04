@@ -1,4 +1,4 @@
-package model;
+package studentsAndBooks;
 
 import java.util.List;
 

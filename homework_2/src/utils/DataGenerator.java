@@ -1,7 +1,7 @@
 package utils;
 
-import model.Book;
-import model.Student;
+import studentsAndBooks.Book;
+import studentsAndBooks.Student;
 
 import java.util.List;
 import java.util.ArrayList;

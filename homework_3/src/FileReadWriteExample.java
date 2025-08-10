@@ -10,7 +10,7 @@ class FileProcessingException extends Exception {
 public class FileReadWriteExample {
 
     // Метод записи в файл
-    public static void writeToFile(String filename, String data) throws FileProcessingException {
+    private static void writeToFile(String filename, String data) throws FileProcessingException {
         try (FileWriter writer = new FileWriter(filename)) {
             writer.write(data);
         } catch (IOException e) {
@@ -19,7 +19,7 @@ public class FileReadWriteExample {
     }
 
     // Метод чтения из файла
-    public static String readFromFile(String filename) throws FileProcessingException {
+    private static String readFromFile(String filename) throws FileProcessingException {
         StringBuilder content = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             String line;

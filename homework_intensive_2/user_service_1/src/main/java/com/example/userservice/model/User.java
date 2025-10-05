@@ -1,4 +1,4 @@
-package main.java.com.example.userservice.model;
+package com.example.userservice.model;
 
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;

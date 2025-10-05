@@ -1,8 +1,8 @@
-package main.java.com.example.userservice.dao;
+package com.example.userservice.dao;
 
-import main.java.com.example.userservice.exception.DaoException;
-import main.java.com.example.userservice.model.User;
-import main.java.com.example.userservice.util.HibernateUtil;
+import com.example.userservice.exception.DaoException;
+import com.example.userservice.model.User;
+import com.example.userservice.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

@@ -1,9 +1,9 @@
-package main.java.com.example.userservice;
+package com.example.userservice;
 
-import main.java.com.example.userservice.exception.DaoException;
-import main.java.com.example.userservice.model.User;
-import main.java.com.example.userservice.service.UserService;
-import main.java.com.example.userservice.util.HibernateUtil;
+import com.example.userservice.exception.DaoException;
+import com.example.userservice.model.User;
+import com.example.userservice.service.UserService;
+import com.example.userservice.util.HibernateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,4 +1,4 @@
-package main.java.com.example.userservice.exception;
+package com.example.userservice.exception;
 
 public class DaoException extends Exception {
     public DaoException(String message, Throwable cause) {

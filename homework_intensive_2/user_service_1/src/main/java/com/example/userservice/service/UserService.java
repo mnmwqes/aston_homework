@@ -1,9 +1,9 @@
-package main.java.com.example.userservice.service;
+package com.example.userservice.service;
 
-import main.java.com.example.userservice.dao.UserDao;
-import main.java.com.example.userservice.dao.UserDaoImpl;
-import main.java.com.example.userservice.exception.DaoException;
-import main.java.com.example.userservice.model.User;
+import com.example.userservice.dao.UserDao;
+import com.example.userservice.dao.UserDaoImpl;
+import com.example.userservice.exception.DaoException;
+import com.example.userservice.model.User;
 
 import java.util.List;
 import java.util.Optional;

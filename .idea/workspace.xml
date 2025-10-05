@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd1bc535-9fc4-4ced-9270-715e5b6b2090" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homework_intensive_2/homework_intensive_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/user_service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/java/com/example/userservice/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/java/com/example/userservice/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/java/com/example/userservice/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/java/com/example/userservice/exception/DaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/java/com/example/userservice/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/java/com/example/userservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/java/com/example/userservice/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +51,15 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/homework_1_1/src/animals/Mammal.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -54,6 +73,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Adapter.executor": "Run",
+    "Application.App.executor": "Run",
     "Application.Builder.executor": "Run",
     "Application.DeadlockExample.executor": "Run",
     "Application.DecoratorD.executor": "Run",
@@ -63,7 +83,11 @@
     "Application.LivelockExample.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Strategy.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -76,11 +100,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/minnu/Documents/GitHub/aston_homework/homework_intensive_2/user_service/src/Main.java",
-    "project.structure.last.edited": "Project",
+    "onboarding.tips.debug.path": "C:/Users/minnu/Documents/GitHub/aston_homework/homework_intensive_2/user_service/target/src/Main.java",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -140,9 +164,9 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/homework_intensive_2/user_service/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/homework_intensive_2/user_service/target/src/Main.java</url>
           <line>11</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

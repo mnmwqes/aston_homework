@@ -1,0 +1,22 @@
+<hibernate-configuration>
+    <session-factory>
+        <!--  JDBC connection  -->
+        <property name="jakarta.persistence.jdbc.driver">org.postgresql.Driver</property>
+        <property name="jakarta.persistence.jdbc.url">jdbc:postgresql://localhost:5432/DB_NAME</property>
+        <property name="jakarta.persistence.jdbc.user">DB_USER</property>
+        <property name="jakarta.persistence.jdbc.password">DB_PASSWORD</property>
+        <!--  Dialect  -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <!--  Show SQL  -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <!--  Automatically update schema (dev only). For production set to 'validate' or remove.  -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <!--  Connection pool settings (use small pool for console app)  -->
+        <property name="hibernate.connection.pool_size">5</property>
+        <!--  Use JDBC batch updates if needed  -->
+        <property name="hibernate.jdbc.batch_size">20</property>
+        <!--  Register annotated classes  -->
+        <mapping class="com.example.userservice.model.User"/>
+    </session-factory>
+</hibernate-configuration>

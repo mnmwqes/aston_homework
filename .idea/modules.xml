@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/homework_4/homework_4.iml" filepath="$PROJECT_DIR$/homework_4/homework_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_5/homework_5.iml" filepath="$PROJECT_DIR$/homework_5/homework_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_intensive_1/homework_intensive_1.iml" filepath="$PROJECT_DIR$/homework_intensive_1/homework_intensive_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_intensive_2/homework_intensive_2.iml" filepath="$PROJECT_DIR$/homework_intensive_2/homework_intensive_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_intensive_2/user_service/user_service.iml" filepath="$PROJECT_DIR$/homework_intensive_2/user_service/user_service.iml" />
     </modules>
   </component>
 </project>

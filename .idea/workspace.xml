@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd1bc535-9fc4-4ced-9270-715e5b6b2090" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service/user_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/homework_intensive_2/user_service/user_service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework_intensive_2/user_service_1/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,16 +92,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/minnu/Documents/GitHub/aston_homework/homework_intensive_2/user_service/target/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/minnu/Documents/GitHub/aston_homework/homework_intensive_2/user_service_1/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\minnu\Documents\GitHub\aston_homework\homework_intensive_2\user_service_1\src\main\resources" />
       <recent name="C:\Users\minnu\Documents\GitHub\aston_homework" />
     </key>
   </component>
@@ -157,9 +157,14 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/homework_intensive_2/user_service/target/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/homework_intensive_2/user_service_1/target/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/homework_intensive_2/user_service_1/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

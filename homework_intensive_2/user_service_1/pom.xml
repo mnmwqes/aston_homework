@@ -20,13 +20,13 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.6.0</version>
+            <version>42.7.7</version>
         </dependency>
         <!--  SLF4J + Logback for logging  -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.4.8</version>
+            <version>1.5.13</version>
         </dependency>
         <!--  JSR 305 for annotations (optional)  -->
         <dependency>

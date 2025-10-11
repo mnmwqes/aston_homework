@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1bc535-9fc4-4ced-9270-715e5b6b2090" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service_1/src/test/java/com/example/userservice/dao/UserDaoIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_intensive_2/user_service_1/src/test/java/com/example/userservice/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework_intensive_2/user_service_1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service_1/target/classes/com/example/userservice/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service_1/target/classes/com/example/userservice/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service_1/target/classes/com/example/userservice/dao/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service_1/target/classes/com/example/userservice/exception/DaoException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service_1/target/classes/com/example/userservice/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service_1/target/classes/com/example/userservice/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_intensive_2/user_service_1/target/classes/com/example/userservice/util/HibernateUtil.class" beforeDir="false" />
-    </list>
+    <list default="true" id="fd1bc535-9fc4-4ced-9270-715e5b6b2090" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

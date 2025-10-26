@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1bc535-9fc4-4ced-9270-715e5b6b2090" name="Changes" comment="" />
+    <list default="true" id="fd1bc535-9fc4-4ced-9270-715e5b6b2090" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/homework_intensive_5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_5/src/main/java/com/example/notification/api/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_5/src/main/java/com/example/notification/kafka/UserEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_5/src/main/java/com/example/notification/kafka/UserEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_5/src/main/java/com/example/notification/mail/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_5/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_5/src/test/java/com/example/notification/NotificationIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +102,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/minnu/Documents/GitHub/aston_homework/homework_intensive_4/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/minnu/Documents/GitHub/aston_homework/homework_intensive_5/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -167,6 +179,11 @@
           <url>file://$PROJECT_DIR$/homework_intensive_2/user_service_1/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/homework_intensive_5/src/main/java/com/example/notification/NotificationServiceApplication.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

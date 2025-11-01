@@ -17,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="homework_intensive_4" options="-parameters" />
       <module name="homework_intensive_5" options="-parameters" />
+      <module name="homework_intensive_6" options="-parameters" />
     </option>
   </component>
 </project>

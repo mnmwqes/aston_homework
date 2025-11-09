@@ -9,5 +9,15 @@
     <file url="file://$PROJECT_DIR$/homework_intensive_5/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework_intensive_6/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework_intensive_6/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/api_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/api_gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/config_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/config_server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/eureka_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/eureka_server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hw_intensive_7_microservices_architecture/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hw_intensive_7_microservices_architecture/src/main/resources" charset="UTF-8" />
   </component>
 </project>

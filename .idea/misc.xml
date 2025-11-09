@@ -8,7 +8,18 @@
         <option value="$PROJECT_DIR$/homework_intensive_4/pom.xml" />
         <option value="$PROJECT_DIR$/homework_intensive_5/pom.xml" />
         <option value="$PROJECT_DIR$/homework_intensive_6/pom.xml" />
+        <option value="$PROJECT_DIR$/hw_intensive_7_microservices_architecture/pom.xml" />
+        <option value="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/pom.xml" />
+        <option value="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/api_getway/pom.xml" />
+        <option value="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/api_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/eureka_server/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/hw_intensive_7_microservices_architecture/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_24" default="true" project-jdk-name="24" project-jdk-type="JavaSDK">

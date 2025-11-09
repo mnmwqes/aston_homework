@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd1bc535-9fc4-4ced-9270-715e5b6b2090" name="Changes" comment="" />
+    <list default="true" id="fd1bc535-9fc4-4ced-9270-715e5b6b2090" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/api_gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/api_gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/api_gateway/src/main/java/com/example/apigateway/GatewayFallbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/api_gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/config_server/config_repo/api_gateway.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/config_server/config_repo/user_service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/config_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/config_server/src/main/java/com/example/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/config_server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/eureka_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/eureka_server/src/main/java/com/example/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/eureka_server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/homework_intensive_7_microservices_architecture.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/java/com/example/userservice/config/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/java/com/example/userservice/controller/HealthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/java/com/example/userservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/java/com/example/userservice/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/java/com/example/userservice/dto/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/java/com/example/userservice/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/java/com/example/userservice/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/java/com/example/userservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_intensive_4/src/main/java/com/example/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_intensive_4/src/main/java/com/example/userservice/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_intensive_6/src/main/java/com/example/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_intensive_6/src/main/java/com/example/userservice/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_intensive_6/src/test/java/com/example/userservice/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework_intensive_6/src/test/java/com/example/userservice/UserControllerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,47 +93,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Adapter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Builder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeadlockExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DecoratorD.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EndlessStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileReadWrite.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileReadWriteExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LivelockExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Strategy.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.UserControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/minnu/Documents/GitHub/aston_homework&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/minnu/Documents/GitHub/aston_homework/homework_intensive_6/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Adapter.executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.Builder.executor": "Run",
+    "Application.DeadlockExample.executor": "Run",
+    "Application.DecoratorD.executor": "Run",
+    "Application.EndlessStreams.executor": "Run",
+    "Application.FileReadWrite.executor": "Run",
+    "Application.FileReadWriteExample.executor": "Run",
+    "Application.LivelockExample.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Strategy.executor": "Run",
+    "Application.UserServiceApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.UserControllerTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/minnu/Documents/GitHub/aston_homework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/minnu/Documents/GitHub/aston_homework/homework_intensive_7_microservices_architecture/api_gateway/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\minnu\Documents\GitHub\aston_homework\homework_intensive_2\user_service_1\src\main\resources" />
@@ -177,6 +213,31 @@
           <url>file://$PROJECT_DIR$/homework_intensive_6/src/main/java/com/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/user_service/src/main/java/com/example/userservice/UserServiceApplication.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/api_getway/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/config_server/src/main/java/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/eureka_server/src/main/java/com/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

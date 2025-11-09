@@ -1,4 +1,4 @@
-package com.example.userservice.controller;
+package com.example.userservice;
 
 
 import com.example.userservice.dto.UserDto;

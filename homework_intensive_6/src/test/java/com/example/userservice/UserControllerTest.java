@@ -1,4 +1,4 @@
-package com.example.userservice.controller;
+package com.example.userservice;
 
 import com.example.userservice.dto.UserDto;
 import com.example.userservice.dto.UserRequest;
@@ -13,7 +13,6 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.time.Instant;
-import java.util.List;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;

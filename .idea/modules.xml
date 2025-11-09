@@ -3,11 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/aston_homework.iml" filepath="$PROJECT_DIR$/.idea/aston_homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config_server.iml" filepath="$PROJECT_DIR$/config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_3/homework_3.iml" filepath="$PROJECT_DIR$/homework_3/homework_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_4/homework_4.iml" filepath="$PROJECT_DIR$/homework_4/homework_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_5/homework_5.iml" filepath="$PROJECT_DIR$/homework_5/homework_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_intensive_1/homework_intensive_1.iml" filepath="$PROJECT_DIR$/homework_intensive_1/homework_intensive_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/homework_intensive_2/homework_intensive_2.iml" filepath="$PROJECT_DIR$/homework_intensive_2/homework_intensive_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/homework_intensive_7_microservices_architecture/homework_intensive_7_microservices_architecture.iml" filepath="$PROJECT_DIR$/homework_intensive_7_microservices_architecture/homework_intensive_7_microservices_architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user_service.iml" filepath="$PROJECT_DIR$/user_service.iml" />
     </modules>
   </component>
 </project>

@@ -8,10 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="homework_intensive_5" />
         <module name="homework_intensive_6" />
+        <module name="user_service" />
+        <module name="config_server" />
         <module name="user_service_1" />
         <module name="homework_intensive_4" />
+        <module name="eureka_server" />
+        <module name="api_gateway" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hw_intensive_7_microservices_architecture" target="24" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -1,8 +1,16 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/userdb
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://postgres:5432/usersdb
+    username: user
+    password: password
   jpa:
     hibernate:
       ddl-auto: update
+    show-sql: true
+  application:
+    name: user-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka/

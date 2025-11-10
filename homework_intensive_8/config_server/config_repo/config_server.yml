@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:./config-repo  # где искать YAML-файлы конфигурации
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka/

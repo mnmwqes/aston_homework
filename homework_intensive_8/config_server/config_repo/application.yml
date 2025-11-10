@@ -1,10 +1,10 @@
 spring:
   application:
-    name: config-server
+    name: config_server
   cloud:
     config:
       server:
         native:
-          search-locations: file:./config-repo
+          search-locations: file:./config_repo
 server:
   port: 8888

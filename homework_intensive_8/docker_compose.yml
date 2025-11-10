@@ -55,30 +55,30 @@ services:
   # Config Server
   # ===============================
   config-server:
-    build: ./config-server
-    container_name: config-server
+    build: ./config_server
+    container_name: config_server
     ports:
       - "8888:8888"
     networks:
       - micro_net
     volumes:
-      - ./config-repo:/config-repo
+      - ./config_repo:/config_repo
     environment:
       - SPRING_PROFILES_ACTIVE=native
-      - SPRING_CLOUD_CONFIG_SERVER_NATIVE_SEARCH_LOCATIONS=file:/config-repo
+      - SPRING_CLOUD_CONFIG_SERVER_NATIVE_SEARCH_LOCATIONS=file:/config_repo
 
   # ===============================
   # Eureka Service Discovery
   # ===============================
   eureka-server:
-    build: ./eureka-server
-    container_name: eureka-server
+    build: ./eureka_server
+    container_name: eureka_server
     ports:
       - "8761:8761"
     networks:
       - micro_net
     depends_on:
-      - config-server
+      - config_server
     environment:
       - SPRING_PROFILES_ACTIVE=docker
 
@@ -86,40 +86,40 @@ services:
   # User Service
   # ===============================
   user-service:
-    build: ./user-service
-    container_name: user-service
+    build: ./user_service
+    container_name: user_service
     ports:
       - "8082:8082"
     networks:
       - micro_net
     depends_on:
-      - eureka-server
-      - config-server
+      - eureka_server
+      - config_server
       - postgres
       - kafka
     environment:
       - SPRING_PROFILES_ACTIVE=docker
-      - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+      - SPRING_CLOUD_CONFIG_URI=http://config_server:8888
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/users_db
       - SPRING_DATASOURCE_USERNAME=user
       - SPRING_DATASOURCE_PASSWORD=password
       - SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
-      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka-server:8761/eureka/
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka_server:8761/eureka/
 
   # ===============================
   # Notification Service
   # ===============================
   notification-service:
-    build: ./notification-service
-    container_name: notification-service
+    build: ./notification_service
+    container_name: notification_service
     ports:
       - "8083:8083"
     networks:
       - micro_net
     depends_on:
       - kafka
-      - eureka-server
-      - config-server
+      - eureka_server
+      - config_server
     environment:
       - SPRING_PROFILES_ACTIVE=docker
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
@@ -130,15 +130,15 @@ services:
   # API Gateway
   # ===============================
   api-gateway:
-    build: ./api-gateway
-    container_name: api-gateway
+    build: ./api_gateway
+    container_name: api_gateway
     ports:
       - "8080:8080"
     networks:
       - micro_net
     depends_on:
-      - eureka-server
-      - user-service
+      - eureka_server
+      - user_service
     environment:
       - SPRING_PROFILES_ACTIVE=docker
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888

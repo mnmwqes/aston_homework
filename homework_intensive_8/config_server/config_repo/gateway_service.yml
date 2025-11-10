@@ -1,15 +1,15 @@
 spring:
   application:
-    name: api-gateway
+    name: api_gateway
   cloud:
     gateway:
       routes:
-        - id: user-service
-          uri: lb://user-service
+        - id: user_service
+          uri: lb://user_service
           predicates:
             - Path=/users/**
-        - id: notification-service
-          uri: lb://notification-service
+        - id: notification_service
+          uri: lb://notification_service
           predicates:
             - Path=/notifications/**
 

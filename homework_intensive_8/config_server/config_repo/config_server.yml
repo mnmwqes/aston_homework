@@ -1,13 +1,13 @@
 spring:
   application:
-    name: config-server
+    name: config_server
   profiles:
     active: native
   cloud:
     config:
       server:
         native:
-          search-locations: file:./config-repo  # где искать YAML-файлы конфигурации
+          search-locations: file:./config_repo  # где искать YAML-файлы конфигурации
 
 server:
   port: 8888
